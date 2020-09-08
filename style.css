@@ -2698,7 +2698,7 @@ fieldset:disabled a.btn {
 
 .btn-default:hover {
   color: #ffffff;
-  background-color: rgba(159, 67, 39, 0.8);
+  background-color: rgba(255, 193, 7, 0.8);
   border-color: #243152;
 }
 
@@ -10316,6 +10316,16 @@ a.text-darker:focus {
   .navbar {
     display: none;
   }
+
+  .project-nav{
+    list-style: none;
+    display: inline-flex;
+  }
+
+  .project-names{
+    display: block;
+  }
+
   .badge {
     border: 0.0625rem solid #222a42;
   }
@@ -17507,6 +17517,10 @@ hr.line-deafult {
   color: #fd5d93;
 }
 
+.projects-page {
+  font-family: "Poppins", sans-serif;
+}
+
 .section {
   padding: 70px 0;
   position: relative;
@@ -20928,7 +20942,8 @@ input.datetimepicker[data-color="yellow"]+.bootstrap-datetimepicker-widget.dropd
 
 .ok {
   text-align: center;
-  color: #425575;
+  color: black;
+  letter-spacing: 0.1em;
 }
 
 .content-center.brand {
@@ -20950,8 +20965,8 @@ input.datetimepicker[data-color="yellow"]+.bootstrap-datetimepicker-widget.dropd
 }
 
 .under-text-decor {
-  position: relative;
-  background-color: #425575;
+  position: center;
+  background-color: #ffc107;
   width: 45px;
   height: 10px;
   margin-left: 48.2%;
@@ -21027,6 +21042,5 @@ redorange: #9f4327
 white-blue: #D5E1ED
 grey-blue: #7B93AB
 darkblue: #222A42
-
 
 /*# sourceMappingURL=kit-free.css.map */
