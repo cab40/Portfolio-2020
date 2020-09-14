@@ -11,12 +11,6 @@
 
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
- */
-
-/*     brand Colors              */
-
-/* navbar color */
-
 @keyframes move-left-right {
   0% {
     transform: translateX(-10px);
@@ -498,7 +492,7 @@ small,
 mark,
 .mark {
   padding: 0.2em;
-  background-color: #fcf8e3;
+  background-color: rgba(255, 193, 7, 0.1);
 }
 
 .list-unstyled {
@@ -7824,8 +7818,16 @@ button.bg-darker:focus {
   width: 50% !important;
 }
 
+.w-60 {
+  width: 60% !important;
+}
+
 .w-75 {
   width: 75% !important;
+}
+
+.w-85 {
+  width: 85% !important;
 }
 
 .w-100 {
@@ -10319,11 +10321,12 @@ a.text-darker:focus {
 
   .project-nav{
     list-style: none;
-    display: inline-flex;
+    display: table;
   }
 
   .project-names{
-    display: block;
+    list-style: none;
+    display: inline-block;
   }
 
   .badge {
@@ -13946,13 +13949,13 @@ img {
   }
   .navbar .navbar-collapse .navbar-collapse-header .collapse-brand {
     font-size: 1.2495rem;
-    color: #ffffff;
+    color: black;
   }
   .navbar .navbar-collapse .navbar-collapse-header .collapse-brand a {
     font-weight: 600;
   }
   .navbar .navbar-collapse .navbar-collapse-header .collapse-close .navbar-toggler {
-    color: #ffffff;
+    color: black;
     font-size: 1.2495rem;
   }
   .navbar .navbar-collapse .navbar-nav li {
@@ -18493,6 +18496,17 @@ hr.line-deafult {
   }
 }
 
+.blurb {
+  font-size: 1.2em;
+  letter-spacing: 0.15em;
+  background: rgba(255, 193, 7, 0.8);
+  padding: 3px 5px;
+  margin: -3px -5px;
+  line-height: 1.7;
+  border-radius: 3px;
+  display:inline-block;
+}
+
 .color-swatch {
   margin: 1rem 0;
   border-radius: .25rem;
@@ -20984,6 +20998,10 @@ input.datetimepicker[data-color="yellow"]+.bootstrap-datetimepicker-widget.dropd
 
 .height {
   line-height: 20pt;
+}
+
+.goosebox{
+  text-align: center;
 }
 
 /* The Modal (background) */
