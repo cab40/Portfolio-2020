@@ -69,55 +69,120 @@
           <h1 class="text-accent font-weight-light" style="font-size: 5em">Projects</h1>
           <h4 font="font-weight-light">Here I have included a few of my projects which I have completed up until now. I look forward to being able to add more works in the future. I have provided a brief description of each project alongside a link to the project if available.</h4>
           <hr style="width:100%; background-color: #ffc107">
+          <div class="project-table">
           <ul class="project-nav">
             <li class="project-names">
-              <a href="#bookrec">Book Recommendation System
+              <a href="#Locall" style="color:white;">Locall
               </a>
             </li>
+            <li class="project-names"> <a>|</a> </li>
             <li class="project-names">
-              <a href="#bgGen">Background Generator
+              <a href="#Hive" style="color:white;">Hive
               </a>
             </li>
+            <li class="project-names"> <a>|</a> </li>
             <li class="project-names">
-              <a href="#linsys">Linear System solver
+              <a href="#bookrec" style="color: white;">Book Recommendation System
               </a>
             </li>
-	    <li class="project-names">
-              <a href="#sb">Smart Brain
+            <li class="project-names"> <a>|</a> </li>
+            <li class="project-names">
+              <a href="#bgGen" style="color:white;">Background Generator
+              </a>
+            </li>
+            <li class="project-names"> <a>|</a> </li>
+            <li class="project-names">
+              <a href="#linsys" style="color:white;">Linear System solver
+              </a>
+            </li>
+            <li class="project-names"> <a>|</a> </li>
+	          <li class="project-names">
+              <a href="#sb" style="color:white;">Smart Brain
               </a>
             </li>
           </ul>
-          <br><br><br><br>
+        </div>
+          <br><br>
     </div>
  <div data-aos="fade-zoom-in"
      data-aos-easing="ease-in-back"
      data-aos-delay="200"
      data-aos-duration="1500"
      data-aos-offset="0">
-  <div class="container">
+     <div class="container">
             <div class="row justify-content-between align-items-center">
               <div class="col-lg-5 mb-5 mb-lg-0 ">
-                <h1 class="text-accent font-weight-light" id="bookrec">Book Recommendation System</h1>
+                <h1 class="text-accent font-weight-light" id="Locall">Locall</h1>
                 <hr style="height: 5px; background-color: #ffc107">
-                <p class="text-white mt-4 about-text">A common feature in e-commerce platforms is the “customers who liked (item a), also liked (item b)” feature. Based off data used in Michelle Craig’s “Personalized Book Recommendation System” I used Ruby’s ActiveRecord to create a database with the following schema:<br><br>
-                <code>
-                Books (id, title, author)<br>
-                Users (id, name)<br>
-                Ratings (user_id, book_id, rating)</code><br><br>
-                I created a Ruby program which reports the book most similar to a specific title based on user ratings. This is done through treating each book’s ratings as a vector and finding the cosine angle between these two vectors. Ratings range from -5 (hated it), to 0 (no rating), to 5 (loved it). As there are cases in which books have different numbers of ratings, the denominator normalizes the score. The formula used is as follows:
-                <br><br>
-                <img src="img/cosineSimilarity.png" width="80%" height=auto>
-                <br><br>
-                When a user dislikes or likes both books, a positive amount is contributed to the sum in the numerator, when a user dislikes one and likes another, a negative amount is added to the sum. The greater the score, the more similar the two books.
+                <p class="text-white mt-4 about-text">
+                  Locall helps members of a neighbourhood get in contact and share any tasks that they may need help with. Users can browse through these tasks, and offer to help their neighbours. Those who post the tasks can also choose to offer payment for these services. It's hard to trust just anyone to help you out with daily tasks, but you can always count on your neighbours!
+                  <br><br>
+                  Created with Flutter and coded in Dart, this iOS app is the 3rd place winner of McMaster's DeltaHacks 7.
                 </p>
                 <br>
+                <p>View project <a target="_blank" href="https://github.com/cab40/Locall" style="text-decoration: none; color:#ffc107">here.</a></p>
+                <p>View Devpost submission <a target="_blank" href="https://devpost.com/software/locall-tmw7gd" style="text-decoration: none; color:#ffc107">here.</a></p>
               </div>
               <div class="col-lg-6">
-                <img src="img/book-output.png" width="600" height=auto style="overflow:hidden; background:white">
+                <img src="img/Locall.jpeg" width="600" height=auto style="overflow:hidden; background:white">
                 <br><br>
-                <h5>Output for Book Recommendation System</h5>
+                <h5>Sample screens from Locall app.</h5>
               </div>
             </div>
+          </div>
+      </div>
+      <br><br>
+      <hr style="width:100%; background-color: #ffc107">
+      <br><br>
+      <div class="container">
+            <div class="row justify-content-between align-items-center">
+              <div class="col-lg-5 mb-5 mb-lg-0 ">
+                <h1 class="text-accent font-weight-light" id="Hive">Hive</h1>
+                <hr style="height: 5px; background-color: #ffc107">
+                <p class="text-white mt-4 about-text">
+                  A common theme found in online dating is individuals wanting to get as many matches as quickly as possible, often compromising the compatibility of the users. We wanted to find a way to maximize the quality of these pairings in a fun, and more competitive web environment. Our solution? A Bachelor/Bachelorette style dating site which, while still including quick match features found in apps like Tinder and Bumble, takes this up a level by forming groups out of these matched users to then compete to conclude the most compatible match.
+                  <br><br>
+                  This React based projcet was a submission to Hack the North. Coded with a React front-end and a back-end developed with NodeJS and a Cockroach cloud hosted database. 
+                </p>
+                <br>
+                <p>View project <a target="_blank" href="https://github.com/RaymondR-Wu/the-bachelor-htn" style="text-decoration: none; color:#ffc107">here.</a></p>
+                <p>View Devpost submission <a target="_blank" href="https://devpost.com/software/hive-1mzbgv" style="text-decoration: none; color:#ffc107">here.</a></p>
+              </div>
+              <div class="col-lg-6">
+                <img src="img/hive.jpeg" width="600" height=auto style="overflow:hidden; background:white">
+                <br><br>
+                <h5>Sample screens from the Hive site.</h5>
+              </div>
+            </div>
+          </div>
+      </div>
+      <br><br>
+      <hr style="width:100%; background-color: #ffc107">
+      <br><br>
+      <div class="container">
+          <div class="row justify-content-between align-items-center">
+            <div class="col-lg-5 mb-5 mb-lg-0 ">
+              <h1 class="text-accent font-weight-light" id="bookrec">Book Recommendation System</h1>
+              <hr style="height: 5px; background-color: #ffc107">
+              <p class="text-white mt-4 about-text">A common feature in e-commerce platforms is the “customers who liked (item a), also liked (item b)” feature. Based off data used in Michelle Craig’s “Personalized Book Recommendation System” I used Ruby’s ActiveRecord to create a database with the following schema:<br><br>
+              <code>
+              Books (id, title, author)<br>
+              Users (id, name)<br>
+              Ratings (user_id, book_id, rating)</code><br><br>
+              I created a Ruby program which reports the book most similar to a specific title based on user ratings. This is done through treating each book’s ratings as a vector and finding the cosine angle between these two vectors. Ratings range from -5 (hated it), to 0 (no rating), to 5 (loved it). As there are cases in which books have different numbers of ratings, the denominator normalizes the score. The formula used is as follows:
+              <br><br>
+              <img src="img/cosineSimilarity.png" width="80%" height=auto>
+              <br><br>
+              When a user dislikes or likes both books, a positive amount is contributed to the sum in the numerator, when a user dislikes one and likes another, a negative amount is added to the sum. The greater the score, the more similar the two books.
+              </p>
+              <br>
+            </div>
+            <div class="col-lg-6">
+              <img src="img/book-output.png" width="600" height=auto style="overflow:hidden; background:white">
+              <br><br>
+              <h5>Output for Book Recommendation System</h5>
+            </div>
+          </div>
           </div>
       </div>
       <br><br>

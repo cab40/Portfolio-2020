@@ -10319,17 +10319,6 @@ a.text-darker:focus {
   .navbar {
     display: none;
   }
-
-  .project-nav{
-    list-style: none;
-    display: table;
-  }
-
-  .project-names{
-    list-style: none;
-    display: inline-block;
-  }
-
   .badge {
     border: 0.0625rem solid #222a42;
   }
@@ -18736,6 +18725,48 @@ hr.line-deafult {
 
 .header-3 h6 {
   margin-bottom: 0;
+}
+
+.project-nav{
+  min-width: 696px;
+  list-style: none;
+  padding-top: 20px;
+}
+
+.project-table{
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+}
+
+.project-names{
+  list-style: none;
+  display: inline-block;
+  color: #ffc107;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* index page project image description */
+.image-wrap {
+  position: relative;
+}
+.image-description {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 50px;
+  background: rgba(26, 26, 26, 0.83);
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+.image-wrap:hover .image-description {
+  visibility: visible;
+  opacity: 1;
 }
 
 @media screen and (max-width: 768px) {
