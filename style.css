@@ -2113,8 +2113,8 @@ fieldset:disabled a.btn {
 
 .btn-neutral {
   color: #212529;
-  background-color: #ffffff;
-  border-color: #ffffff;
+  background-color: white;
+  border-color: #f2eddf;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
@@ -10739,7 +10739,7 @@ fieldset[disabled] .btn-danger.active {
 }
 
 .btn-neutral {
-  background: #ffffff;
+  background: #f2eddf;
   /*
   background-image: -webkit-linear-gradient(to bottom left, #ffffff, #ffffff, #ffffff);
   background-image: -o-linear-gradient(to bottom left, #ffffff, #ffffff, #ffffff);
@@ -10748,7 +10748,7 @@ fieldset[disabled] .btn-danger.active {
   */
   background-size: 210% 210%;
   background-position: top right;
-  background-color: #ffffff;
+  background-color: white;
   transition: all 0.15s ease;
   box-shadow: none;
   color: black;
@@ -10880,7 +10880,7 @@ fieldset[disabled] .btn-neutral.active {
 .show>.btn-neutral.dropdown-toggle,
 .show>.btn-neutral.dropdown-toggle:focus,
 .show>.btn-neutral.dropdown-toggle:hover {
-  background-color: #ffffff;
+  background-color: #f2eddf;
   color: #7b93ab;
   box-shadow: none;
 }
@@ -10913,7 +10913,7 @@ fieldset[disabled] .btn-neutral.active {
 }
 
 .btn-neutral.btn-simple.active {
-  border-color: #ffffff !important;
+  border-color: #f2eddf !important;
 }
 
 .btn-neutral.btn-simple.active:hover,
